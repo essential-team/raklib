@@ -1,0 +1,20 @@
+{
+    "name": "essential-team/raklib",
+    "description": "RakLib for Essential",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Essential Team",
+            "email": "codevink@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "raklib\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
